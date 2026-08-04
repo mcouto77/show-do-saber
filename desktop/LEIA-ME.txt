@@ -1,0 +1,16 @@
+SHOW DO SABER PARA WINDOWS
+
+1. Dê dois cliques em "Show do Saber.exe".
+2. O aplicativo abrirá em uma janela própria do Microsoft Edge.
+3. Se o Edge não estiver disponível, o site abrirá no navegador padrão.
+
+Requisitos:
+- Windows 10 ou Windows 11, 64 bits.
+- Conexão com a internet para usar o Tutor Inteligente com IA.
+
+Observação de segurança:
+Este executável não contém a chave privada do Tutor IA. A inteligência artificial
+continua sendo executada com segurança pelo servidor publicado no Lovable.
+
+Versão: 1.1.0 — publicação corrigida em 04/08/2026
+Endereço oficial: https://showdosaber.lovable.app
