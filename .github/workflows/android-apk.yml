@@ -41,6 +41,9 @@ jobs:
           java-version: 21
           cache: gradle
 
+      - name: Configurar npm 11
+        run:  npm install --global npm@11
+
       - name: Instalar dependências
         run: npm ci
 
