@@ -37,16 +37,7 @@ for (const edge of edgeCandidates()) {
   }
 }
 
-if (
-  launch("cmd.exe", [
-    "/d",
-    "/s",
-    "/c",
-    "start",
-    "",
-    APP_URL,
-  ])
-) {
+if (launch("cmd.exe", ["/d", "/s", "/c", "start", "", APP_URL])) {
   process.exit(0);
 }
 
