@@ -47,3 +47,20 @@ Sem a chave, o app continua abrindo normalmente e o tutor exibe uma mensagem ami
 O app não pede acesso a contatos, fotos, localização, câmera, microfone ou arquivos.
 Nenhum histórico de estudo é armazenado. O tutor é um apoio para revisar em casa e
 não substitui o professor nem a escola.
+
+## Android (APK)
+
+A versão Android usa Capacitor e abre o endereço oficial seguro
+`https://showdosaber.lovable.app`. A chave do Tutor IA permanece exclusivamente no
+servidor e nunca é incluída no APK.
+
+Requisitos para compilar localmente: Node.js 22+, Android Studio 2025.2.1+ e Android
+SDK. Depois de instalar as dependências, execute:
+
+```bash
+npm run android:sync
+npm run android:assets
+```
+
+Abra a pasta `android/` no Android Studio ou execute `npm run android:apk`. O APK de
+teste será criado em `android/app/build/outputs/apk/debug/app-debug.apk`.

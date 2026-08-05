@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Show do Saber — Tutor Inteligente com IA</string>
+    <string name="title_activity_main">Show do Saber — Tutor Inteligente com IA</string>
+    <string name="package_name">com.mcouto.showdosaber</string>
+    <string name="custom_url_scheme">com.mcouto.showdosaber</string>
+</resources>
